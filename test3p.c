@@ -95,3 +95,31 @@
 
 
 //赋值操作符 =  += -=   *=   /=  &=   |=   ^=   >>=    <<=
+//int main()
+//{
+//	int a = 10;
+//	a = 20;//=赋值  ==判断相等
+//	a = a + 10;
+//	a += 10;//a = a + 10;同义
+//	return 0;
+//}
+
+//单目操作符  与双目操作符    三目操作符
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int c[10] = { 0 };
+//	int sz = 0;
+//	//int b = 20;
+//	//a = a + b;//其中的+为双目操作符    操作两个操作数
+//	//单目操作符  ！逻辑反操作    -负值   +正值   &取地址操作符   sizeof计算的是变量或者类型占空间的大小  单位是字节
+//	sz = sizeof(c) / sizeof(c[0]);
+//	printf("%d\n", a);
+//	printf("%d\n", !a);//0-假    非0-真
+//	printf("%d\n", sizeof(b));
+//	printf("%d\n", sizeof b);
+//	printf("%d\n", sizeof c);
+//	printf("%d\n", sz);
+//	return 0;
+//}
